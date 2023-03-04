@@ -1,8 +1,6 @@
 % Define the folders containing the images and their masks
 imgFolder = 'E:\Dataset_BUSI_with_GT\ben';
 maskFolder = 'E:\Dataset_BUSI_with_GT\mask';
-shadow_exists=[];
-ShadowBorder = {};
 % Get a list of all the images and their corresponding masks
 imgFiles = dir(fullfile(imgFolder, '*.png'));
 maskFiles = dir(fullfile(maskFolder, '*.png'));
